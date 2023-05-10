@@ -147,17 +147,6 @@ data-buttonTextColor="#ffffff"
 data-memo="F5d4scDDRd8GUGUqNbia9v7LZBeQU6PAm3A4RAmBTLxD">
 </div>
 	  
-<!--	  <div class="pip-button hidden" id="filleth"
-data-amount="7"
-data-chainNetwork="ETHEREUM"
-data-currency="ETH"
-data-label="to ETH"
-data-useLabel="true"
-data-receiver="0xf43f6A4E323B87C0A4aA9Bff8DC8Ed02Cc051198"
-data-buttonColor="#11b8ff"
-data-buttonTextColor="#ffffff"
-data-memo="0xf43f6A4E323B87C0A4aA9Bff8DC8Ed02Cc051198">
-</div>-->
 </h1>
   <main>
     <section class="hero">
@@ -243,7 +232,7 @@ Think about it. It's a beautiful idea, really. In a world where violence has cau
   	
   const butj = document.getElementById("buth");
   const button = document.getElementById("fillsol");
-  //const button1 = document.getElementById("filleth");
+
 const windowHeight = window.innerHeight;
 const pageHeight = document.body.clientHeight - windowHeight;
 const gradientColors = [ "#e632e2", "#9d7eff", "#20a7ff", "#00c3ff", "#00d6ff", "#00def9", "#00e6ef", "#25ede3", "#00f3c2", "#3ef49e", "#6df273", "#97ee3f"];
@@ -258,10 +247,10 @@ window.addEventListener("scroll", function() {
 
   if (scrollPercentage >= 0.5) {
     button.classList.remove("hidden");
-   // button1.classList.remove("hidden");
+   
   } else {
     button.classList.add("hidden");
-    //button1.classList.add("hidden");
+    
   }
 });
 </script>
